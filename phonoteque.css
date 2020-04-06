@@ -1,10 +1,4 @@
 /*Partie d'Elias*/
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-
-.font
-{
-	font-family: 'Merienda', cursive;
-}
 header
 {
     background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
@@ -12,6 +6,7 @@ header
     padding-bottom: 1em;
     width:100%;
     text-align: center;
+    font-family: 'JamSession-Regular';
 }
 
 body
@@ -19,13 +14,16 @@ body
 	background-image:url(audioX/vinyle.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
+
+	
 }
 
 .phonoX p
 {
 	border: 3px solid;
     border-radius: 4px;
-    margin: 3%
+    margin: 3%;
+    font-family: 'Atlantic_Cruise-Demo';
 }
 
 .couleur
@@ -79,4 +77,23 @@ body
     height: 0;
     overflow: hidden;
 }
+
+@font-face
+{
+	font-family: 'JamSession-Regular';
+	src:url('FontX/JamSession-Regular.ttf') format(truetype);
+	src: local("☺"), url('FontX/JamSession-Regular.ttf') format('ttf'), url('FontX/JamSession-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Atlantic_Cruise-Demo';
+	src:url('FontX/Atlantic_Cruise-Demo.ttf') format(truetype);
+	src: local("☺"), url('FontX/Atlantic_Cruise-Demo.ttf') format('ttf'), url('FontX/Atlantic_Cruise-Demo.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*Fin d'Elias*/
