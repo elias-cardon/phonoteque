@@ -1,4 +1,10 @@
 /*Partie d'Elias*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.font
+{
+	font-family: 'Merienda', cursive;
+}
 header
 {
     background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
@@ -73,3 +79,4 @@ body
     height: 0;
     overflow: hidden;
 }
+/*Fin d'Elias*/
