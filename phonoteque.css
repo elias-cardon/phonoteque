@@ -20,14 +20,11 @@ body
 	border: 3px solid;
     border-radius: 4px;
     margin: 3%
-    text-color : white;
-    font-weight: 700;
-    font-family: 'Comic sans MS';
 }
 
 .couleur
 {
-	color: purple;
+	color: white;
 }
 .phonoX h2
 {
