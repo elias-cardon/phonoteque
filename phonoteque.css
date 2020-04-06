@@ -1,0 +1,69 @@
+/*Partie d'Elias*/
+header
+{
+    background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
+    padding-top:2em;
+    padding-bottom: 1em;
+    width:100%;
+    text-align: center;
+}
+
+body
+{
+	background-image:url(images/image_de_fond.png);
+}
+
+.phonoX p
+{
+	border: 3px solid;
+    border-radius: 4px;
+    margin: 3%
+}
+
+.phonoX h2
+{
+	text-align: center;
+}
+.vinyle1
+{
+	display: flex;
+    flex-flow:row wrap ;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.vinyle2
+{
+	display: flex;
+    flex-flow:row wrap ;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.V
+{
+	width: 500px;
+    padding-bottom: 1em;
+}
+
+.block-audio
+{
+	max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-audio
+{
+	position: relative;
+    padding-bottom: 10%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
