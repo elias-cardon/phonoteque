@@ -109,6 +109,9 @@ main{
     overflow: hidden;
     background-color: var(--primaryColor);
 }
+.accueil-item{
+   background-color: #676876;
+}
 .picture-item h2{
     font-family: "attack", arial, sans-serif;
     text-align: center;
@@ -119,6 +122,12 @@ main{
                  0px 14px 10px rgba(0,0,0,0.15),
                  0px 24px 2px rgba(0,0,0,0.1),
                  0px 34px 30px rgba(0,0,0,0.1);
+}
+.accueil-picture-item .h2-color{
+    color: black ;
+}
+.accueil-picture-item h2{
+    font-family: 'JamSession-Regular';
 }
 figure{
     margin:0;
@@ -172,9 +181,17 @@ footer ul{
 
 .footer-font-size
 {
-    font-size: 1.125em;
+    font-size: 1.5em;
 }
-
+.footer-font-size li{
+    font-family: 'JamSession-Regular';
+}
+.footer-font-size a{
+    color: black;
+}
+.footer-back-color{
+    background-color: #676876;
+}
 /*VAR */
 :root{
     --primaryColor:#9B00E8;
