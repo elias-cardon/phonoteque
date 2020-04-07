@@ -42,10 +42,10 @@ nav a:hover, footer a:hover{
 nav a:active, footer a:active{
     color: white;
 }
-li  {
+#taille li  {
     list-style-type: none;
     display: inline-block;
-    font-family: 'JamSession-Regular';
+    font-size: 35px;
     padding-left:2em;
 }
 /*Fin barnav*/
