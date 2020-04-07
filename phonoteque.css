@@ -170,6 +170,11 @@ footer ul{
     margin: 0;
 }
 
+.footer-font-size
+{
+    font-size: 1.125em;
+}
+
 /*VAR */
 :root{
     --primaryColor:#9B00E8;
@@ -378,7 +383,6 @@ nav a:active, footer a:active
 
 /*Footer*/
 footer{
-    background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
     padding-top:1em;
     padding-bottom: 1em;
     width:100%;
