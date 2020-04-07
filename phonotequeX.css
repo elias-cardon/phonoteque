@@ -47,7 +47,7 @@ nav a:active, footer a:active
 {
     color: white;
 }
-#taille li
+.taille li
 {
     list-style-type: none;
     display: inline-block;
@@ -125,6 +125,28 @@ nav a:active, footer a:active
     overflow: hidden;
 }
 /*Fin main*/
+
+/*Footer*/
+footer{
+    background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
+    padding-top:1em;
+    padding-bottom: 1em;
+    width:100%;
+    text-align: center;
+    font-family: 'JamSession-Regular';
+    font-size: 40px;
+}
+footer li{
+    margin-right:0.2em;
+    padding-left:0;
+    padding-right: 2em;
+    font-size: 1.125em;
+}
+footer ul{
+    margin: 0;
+}
+
+/*Fin Footer*/
 
 @font-face
 {
