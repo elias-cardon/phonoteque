@@ -6,8 +6,6 @@ html, body{
     padding: 0;
 }
 /* HEADER */
-
-
 header{
     display: flex;
     justify-content: center;
@@ -69,6 +67,11 @@ input{
     left:9.375em;
 }
 /* MAIN */
+
+.background
+{
+    background-color:linear-gradient (180deg, purple, silver);
+}
 main{
     min-height: 100vh;
     min-width: 100%;
