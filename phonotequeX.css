@@ -1,4 +1,12 @@
 /*Partie d'Elias*/
+#fond
+{
+	background-image:url(FontX/fond.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+/*Header*/
 .phonoX header
 {
     background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
@@ -9,14 +17,6 @@
     font-family: 'JamSession-Regular';
     font-size: 40px;
 }
-
-#fond
-{
-	background-image:url(FontX/fond.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-}
-
 /*barnav*/
 nav
 {
@@ -55,7 +55,9 @@ nav a:active, footer a:active
     padding-left:2em;
 }
 /*Fin barnav*/
+/*Fin header*/
 
+/*main*/
 .phonoX p
 {
 	border: 3px solid;
@@ -122,6 +124,7 @@ nav a:active, footer a:active
     height: 0;
     overflow: hidden;
 }
+/*Fin main*/
 
 @font-face
 {
@@ -149,5 +152,4 @@ nav a:active, footer a:active
     font-weight: 400;
     font-style: normal;
 }
-
 /*Fin d'Elias*/
