@@ -18,7 +18,8 @@
 }
 
 /*barnav*/
-nav{
+nav
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +29,26 @@ nav{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     z-index:10;
 }
-nav ul{
+nav ul
+{
    padding:0;
 }
-nav a, footer a, header a  {
+nav a, footer a, header a
+{
     text-decoration: none;
     color:var(--fontColor);
     transition: 0.3s;
 }
-nav a:hover, footer a:hover{
+nav a:hover, footer a:hover
+{
     opacity: 0.5;
 }
-nav a:active, footer a:active{
+nav a:active, footer a:active
+{
     color: white;
 }
-#taille li  {
+#taille li
+{
     list-style-type: none;
     display: inline-block;
     font-size: 35px;
