@@ -1,5 +1,5 @@
 /*Partie d'Elias*/
-header
+.phonoX header
 {
     background: linear-gradient(90deg, #676876 0%, #808187 50%, #6E6F77 100%);
     padding-top:2em;
@@ -7,15 +7,14 @@ header
     width:100%;
     text-align: center;
     font-family: 'JamSession-Regular';
+    font-size: 40px;
 }
 
-body
+#fond
 {
 	background-image:url(FontX/fond.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-
-	
 }
 
 .phonoX p
