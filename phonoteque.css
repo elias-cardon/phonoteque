@@ -67,11 +67,6 @@ input{
     left:9.375em;
 }
 /* MAIN */
-
-.background
-{
-    background-color:linear-gradient (180deg, purple, silver);
-}
 main{
     min-height: 100vh;
     min-width: 100%;
@@ -233,11 +228,15 @@ footer ul{
 }
 
 /*Header*/
-#back
+.back
 {
     background-image: none;
     display: flex;
     flex-flow: column wrap;
+}
+.deux{
+    background: linear-gradient(180deg, var(--primaryColor), silver 50%);
+
 }
 
 .police
