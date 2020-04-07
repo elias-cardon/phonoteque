@@ -178,10 +178,8 @@ footer li{
 footer ul{
     margin: 0;
 }
-
-.footer-font-size
-{
-    font-size: 1.5em;
+.font-size-syntwave-footer{
+    font-size: 0.5em;
 }
 .footer-font-size li{
     font-family: 'JamSession-Regular';
