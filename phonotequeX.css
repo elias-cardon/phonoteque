@@ -11,7 +11,7 @@ header
 
 body
 {
-	background-image:url(audioX/vinyle.jpg);
+	background-image:url(FontX/fond.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 
@@ -23,7 +23,8 @@ body
 	border: 3px solid;
     border-radius: 4px;
     margin: 3%;
-    font-family: 'Atlantic_Cruise-Demo';
+    font-family: 'Bernardo_Moda_Bold';
+    font-size: 30px;
 }
 
 .couleur
@@ -33,6 +34,12 @@ body
 .phonoX h2
 {
 	text-align: center;
+}
+
+.phonoX h2, h3
+{
+    font-family: 'Autography';
+    font-size: 70px;
 }
 .vinyle1
 {
@@ -89,9 +96,18 @@ body
 
 @font-face
 {
-	font-family: 'Atlantic_Cruise-Demo';
-	src:url('FontX/Atlantic_Cruise-Demo.ttf') format(truetype);
-	src: local("☺"), url('FontX/Atlantic_Cruise-Demo.ttf') format('ttf'), url('FontX/Atlantic_Cruise-Demo.ttf') format('truetype');
+    font-family: 'Autography';
+    src:url('FontX/Photograph Signature.ttf') format(truetype);
+    src: local("☺"), url('FontX/Photograph Signature.ttf') format('ttf'), url('FontX/Photograph Signature.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Bernardo_Moda_Bold';
+    src:url('FontX/Bernardo_Moda_Bold.ttf') format(truetype);
+    src: local("☺"), url('FontX/Bernardo_Moda_Bold.ttf') format('ttf'), url('FontX/Bernardo_Moda_Bold.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
