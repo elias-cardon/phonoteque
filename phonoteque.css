@@ -81,7 +81,6 @@ main{
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    margin:30px;
 }
 .container-items{
     width:100%;
